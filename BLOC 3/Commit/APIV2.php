@@ -1,7 +1,7 @@
 <?php
 
 // Requête de recherche
-$searchQuery = 'vfsvbfdsvfsqbd';
+$searchQuery = 'arbre';
 
 // Clé d'API YouTube Data
 $apiKey = 'AIzaSyCNDwHu0VuRcXerDO5NssytkNymtQSHrfk';
