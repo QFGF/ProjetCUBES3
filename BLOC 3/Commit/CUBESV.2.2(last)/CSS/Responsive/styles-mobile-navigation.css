@@ -1,0 +1,24 @@
+@media screen and (max-width: 768px) {
+  /* Réorganise la barre de navigation en colonne */
+  .navbar {
+    width: 70%;
+    flex-direction: column; /* Afficher les éléments en colonne */
+    margin-right: 10%; /* Ajouter une marge à droite pour l'espace entre la barre de navigation et la section */
+    height: 100vh; /* Navigation prends toute la place possible sur la hauteur */
+    justify-content: flex-start;
+    border-right: 4px solid #6433a5;
+  }
+  .navbar ul{
+    flex-direction: column;
+  }
+  .navbar ul li a {
+    float: none;
+    display: block;
+    font-size: 14px; /* Réduire la taille de la police dans la navigation */
+  }
+  .nav-button {
+    margin-bottom: 10px;
+    margin-right: 0;
+    background-color: transparent;
+  }
+}

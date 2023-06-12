@@ -1,0 +1,7 @@
+/* Media queries pour mobile */
+@media screen and (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: row; /* Afficher les éléments en ligne horizontale */
+  }
+}

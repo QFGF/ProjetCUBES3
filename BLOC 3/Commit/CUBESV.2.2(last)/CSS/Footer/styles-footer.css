@@ -1,0 +1,20 @@
+footer {
+  background-color: rgba(33,37,41,1)!important;
+  color: white;
+  border-top: 2px solid rgb(155 22 255);
+  padding: 18px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  margin: 0;
+}

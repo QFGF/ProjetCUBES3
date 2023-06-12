@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) {
+.navbar img {
+    width: 80%; /* La largeur de l'image est de 20% de la largeur de son conteneur */
+    max-width: 120px; /* La largeur maximale de l'image est de 120 pixels */
+    height: auto; 
+    margin-top: 10px;
+  }
+}
