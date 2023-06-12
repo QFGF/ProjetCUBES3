@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px) {
+  /*Barre de recherche côté navigation + texte btn colonne*/
+  .search-form {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px; /* Ajoutez un padding pour l'espace autour du bouton de recherche */
+    background-color: #000000; /* Ajoutez une couleur de fond à la barre de recherche */
+    z-index: 9999; /* Assurez-vous que la barre de recherche est au-dessus des autres éléments */
+  }
+  .search-form input[type="text"] {
+    border: 2px solid #FFFFFF; /* Modifiez la couleur de la bordure de la barre de recherche */
+    width: calc(100% - 120px); /* Remplacez 120px par la largeur du bouton de recherche */
+  }
+  .search-form button {
+    background-color: #4a0072;
+    width: 120px; /* Définissez une largeur fixe pour le bouton de recherche */
+    color: #FFFFFF; /* Modifiez la couleur du texte du bouton de recherche */
+    border: none;
+    cursor: pointer;
+  }
+}

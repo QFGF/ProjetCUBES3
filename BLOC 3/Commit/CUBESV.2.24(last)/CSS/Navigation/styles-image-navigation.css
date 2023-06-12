@@ -1,0 +1,8 @@
+.navbar-web .img-icone {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%; /* Arrondi les contours de l'image */
+    text-align: center;
+    padding: 10px 16px;
+    box-sizing: revert!important;
+  }
