@@ -1,0 +1,58 @@
+.img-theme {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+    overflow: hidden;
+  }
+
+.categorie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.conteneur {
+    width: 20%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 6%;
+    padding-right: 20px;
+    flex-direction: column;
+  }
+
+.intro-themes {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    .categorie {
+        flex-direction: column;
+      }
+    
+    .conteneur {
+        width: 70%;
+        max-height: 160px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+    .img {
+        max-width: 100%;
+        max-height: 100%;
+        object-position: center;
+      }
+/* Texte d'intro */
+      .intro-themes {
+        font-size: 15px;
+    }
+  }
