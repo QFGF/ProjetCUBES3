@@ -13,7 +13,7 @@ function convertToHHMMSS($videoDuree)
 }
 
 // Requête de recherche
-$searchQuery = 'mario';
+$searchQuery = 'sport';
 
 // Clé d'API YouTube Data
 $apiKey = 'AIzaSyCNDwHu0VuRcXerDO5NssytkNymtQSHrfk';
