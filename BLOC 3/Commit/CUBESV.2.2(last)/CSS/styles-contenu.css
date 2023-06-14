@@ -1,0 +1,41 @@
+/* Styles pour le contenu */
+.content {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  
+  .content h1 {
+    font-size: 24px;
+  }
+  
+  .content form {
+    margin-top: 10px;
+  }
+  
+  .content input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 2px solid #674d9d;
+  }
+  
+  .content input[type="submit"] {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #333;
+    border: 2px solid yellow;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .content input[type="submit"]:hover {
+    background-color: #4a0072;
+    border: 2px solid yellow;
+  }
+  

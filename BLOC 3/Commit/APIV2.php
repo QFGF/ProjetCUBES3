@@ -11,7 +11,7 @@ function convertToHHMMSS($videoDuree)
 
     return sprintf("%02d:%02d:%02d", $hours, $minutes, $seconds);
 }
-
+ 
 // Requête de recherche
 $searchQuery = 'sport';
 

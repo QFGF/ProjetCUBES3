@@ -1,0 +1,10 @@
+/* Styles globaux */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0px 0px;
+}

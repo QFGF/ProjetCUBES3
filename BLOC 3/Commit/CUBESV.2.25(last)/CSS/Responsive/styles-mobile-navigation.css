@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px) {
+  /* Réorganise la barre de navigation en colonne */
+  .navbar-web {
+    display: none; /* Barre web cacher */
+  }
+
+  .navbar{
+    display: flex!important; /* Afficher barre de nav mobile */
+    position: relative!important;
+    }
+
+  .menu-button {
+    display: none; /* Barre web cacher */
+  }
+}
