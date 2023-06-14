@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    background-color: cadetblue;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contained {
+    display: flex;
+    flex-direction: row;
+    background-color: coral;
+    justify-content: space-evenly;
+    max-width: 100%;
+
+}
+.textes {
+    display: flex;
+    flex-direction: column;
+    background-color: darkseagreen;
+}
+
+.video {
+    justify-content: center;
+    max-width: 65%;
+}
+
+.info {
+    max-width: 34%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.ligne {
+    max-width: 45%;
+    background-color: yellow;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
