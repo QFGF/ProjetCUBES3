@@ -1,6 +1,5 @@
 .container {
     display: flex;
-    background-color: cadetblue;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
@@ -9,32 +8,85 @@
 .contained {
     display: flex;
     flex-direction: row;
-    background-color: coral;
     justify-content: space-evenly;
     max-width: 100%;
+    height: 23%;
+    border-color: lightgray;
+    border: 1px solid;
+    border-radius: 20px;
+
 
 }
 .textes {
     display: flex;
     flex-direction: column;
-    background-color: darkseagreen;
+    margin-block-start: 1em;
+    margin-block-end: 0em;
 }
 
 .video {
     justify-content: center;
-    max-width: 65%;
+    max-width: 70%;
 }
 
 .info {
-    max-width: 34%;
+    max-width: 30%;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    scroll-behavior: auto;
 }
 .ligne {
     max-width: 45%;
-    background-color: yellow;
+    max-height: 20%;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: space-evenly;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+.container {
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.contained {
+    flex-direction: column-reverse;
     justify-content: center;
+    margin-bottom: 1.5%;
+}
+
+.ligne {
+    max-width: 100%;
+}
+
+.info {
+    max-width: 100%;
+    justify-content: center;
+}
+
+.video {
+    justify-content: center;
+}
+
+iframe {
+    margin-left: 20%;
+}
+
+.textes {
+    display: flex;
+    justify-content: center;
+    margin-block-start: 1em;
+    margin-block-end: 0em;
+    text-align: center;
+}
+strong {
+    display: flex;
+    justify-content: center;
+}
 }

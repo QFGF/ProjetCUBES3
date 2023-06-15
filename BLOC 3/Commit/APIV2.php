@@ -4,7 +4,7 @@ echo '<link rel="stylesheet" type="text/css" href="./APIV22">';
 $searchQuery = 'Mario';
 
 // Clé d'API YouTube Data
-$apiKey = 'AIzaSyCNDwHu0VuRcXerDO5NssytkNymtQSHrfk';
+$apiKey = 'AIzaSyAZFhHNrzuwUWsRa9tYa95jkIi2PRToqFU';
 
 // Nombre de vidéos à récupérer
 $maxResults = 8; // multiple de 4 !!!!
@@ -39,16 +39,16 @@ foreach ($data['items'] as $item) {
     $urldetails = 'https://www.googleapis.com/youtube/v3/videos?part=contentDetails&id='.$videoId.'&key='.$apiKey ; //****details***//
     $responsedetails = file_get_contents($urldetails); //****details***// 
     $datad = json_decode($responsedetails, true) ; //****details***//
-    $videoDuree = $datad['items'][0]['contentDetails']['duration'];
+    $videoDuree = str_replace("PT", "", $datad['items'][0]['contentDetails']['duration']);
     // Vérifier si la requête a réussi
     echo '<div class=contained>';
     if ($data['pageInfo']['totalResults'] > 0) {
         echo '<div class=info>';
         // Afficher le titre et le lien de la vidéo
-        echo '<p class=textes><strong>' . 'Titre : </strong><br>' . $videoTitle . '</p>';
+        echo '<p class=textes><strong>' . 'Titre : </strong>' . $videoTitle . '</p>';
         //echo 'Lien: <a href="https://www.youtube.com/watch?v=' . $videoId . '">Regarder la vidéo</a><br>';
-        echo '<p class=textes><strong>' . 'Description : </strong><br>' . $videoDescription . '</p>'; 
-        echo '<p class=textes><strong>' . 'Durée : </strong><br>' . $videoDuree . '</p>'; 
+        echo '<p class=textes><strong>' . 'Description : </strong>' . $videoDescription . '</p>'; 
+        echo '<p class=textes><strong>' . 'Durée : </strong>' . $videoDuree . '</p>'; 
         echo '</div>';
         //var_dump($responsedetails) ; // n'affiche pas 'contentDetails'
         echo '<p class=video>' . $video_code_integration . '</p>';
