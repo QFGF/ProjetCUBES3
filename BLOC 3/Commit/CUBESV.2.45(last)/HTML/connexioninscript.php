@@ -1,6 +1,6 @@
 <?php 
 include 'header.php';
-// require '../PGADmin.php' ;
+require '../PGADmin.php' ;
 ?>
 <?php
 // Définir le nombre maximal de tentatives de connexion échouées autorisées
@@ -107,7 +107,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && (isset($_POST['loginEmail']))) {
 
     <div class="row mt-4 justify-content-center">
       <div class="col-md-6">
-        <h2>Inscription</h2>
+        <h2>Inscriptionnnnnnn</h2>
         <form method="POST" action="">
           <div class="mb-3">
             <label for="signupName" class="form-label">Nom complet</label>

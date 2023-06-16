@@ -1,0 +1,71 @@
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #ebebeb;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+
+  .featured-wines {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .wine-card {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 0 2%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wine-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .wine-card h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    white-space: nowrap; /* Empêche le titre de passer à la ligne */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Ajoute des points de suspension si le titre est trop long */
+  }
+  
+  .wine-card p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
